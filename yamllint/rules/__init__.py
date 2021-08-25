@@ -15,6 +15,8 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 from yamllint.rules import (
+    action_hashes,
+    action_name,
     braces,
     brackets,
     colons,
@@ -39,6 +41,8 @@ from yamllint.rules import (
 )
 
 _RULES = {
+    action_hashes.ID: action_hashes,
+    action_name.ID: action_name,
     braces.ID: braces,
     brackets.ID: brackets,
     colons.ID: colons,

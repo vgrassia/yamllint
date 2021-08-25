@@ -6,6 +6,8 @@ yaml-files:
   - '.yamllint'
 
 rules:
+  action-hashes: enable
+  action-name: enable
   braces: enable
   brackets: enable
   colons: enable
